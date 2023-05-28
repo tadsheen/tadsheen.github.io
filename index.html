@@ -10,27 +10,46 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div style="display: flex; justify-content: center">
-      <img src="images/logo.png" alt="" style="width: 600px" />
-    </div>
-    <div id="container">
-      <h1>تدشين الإطار الوطني للمؤهلات في سلطنة عُمان</h1>
-      <button
-        class="button button4"
-        style="vertical-align: middle"
-        onclick="start()"
-      >
-        <span>بسم الله على بركة الله</span>
-      </button>
-    </div>
-
-    <div style="display: flex; justify-content: center; margin-top: 100px">
-      <img src="images/logos.png" alt="" style="width: 1000px; height: 550px" />
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      "
+    >
+      <div style="display: flex; justify-content: center">
+        <img src="images/logo.png" alt="" style="width: 600px" />
+      </div>
+      <div id="container">
+        <h1>تدشين الإطار الوطني للمؤهلات في سلطنة عُمان</h1>
+        <button
+          class="button button4"
+          style="vertical-align: middle"
+          onclick="start()"
+        >
+          <span>بسم الله على بركة الله</span>
+        </button>
+      </div>
     </div>
 
     <!-- partial:index.partial.html -->
     <canvas id="canvas-number"></canvas>
     <canvas id="canvas-dots"></canvas>
+
+    <div
+      style="
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      "
+    >
+      <img src="images/logos.png" alt="" style="width: 1000px; height: 800px" />
+    </div>
 
     <!-- partial -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
