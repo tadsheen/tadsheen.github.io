@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>حفل التدشين</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center">
+      <img src="images/logo.png" alt="" style="width: 600px" />
+    </div>
+    <div id="container">
+      <h1>تدشين الإطار الوطني للمؤهلات في سلطنة عُمان</h1>
+      <button
+        class="button button4"
+        style="vertical-align: middle"
+        onclick="start()"
+      >
+        <span>بسم الله على بركة الله</span>
+      </button>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 100px">
+      <img src="images/logos.png" alt="" style="width: 1000px; height: 550px" />
+    </div>
+
+    <!-- partial:index.partial.html -->
+    <canvas id="canvas-number"></canvas>
+    <canvas id="canvas-dots"></canvas>
+
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
